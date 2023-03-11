@@ -1,5 +1,5 @@
 module "ec2-instance" {
-  source  = "registry.assareh.com/hashidemos/ec2-instance/aws"
+  source  = "localterraform.com/hashidemos/ec2-instance/aws"
   version = "0.0.1"
 }
 
