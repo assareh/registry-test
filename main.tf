@@ -3,12 +3,12 @@ module "ec2-instance" {
   version = "0.0.1"
 }
 
-terraform {
- cloud {
-    organization = "hashidemos"
+# terraform {
+#  cloud {
+#     organization = "hashidemos"
 
-    workspaces {
-      name = "testing-registry"
-    }
-  }
-}
+#     workspaces {
+#       name = "testing-registry"
+#     }
+#   }
+# }
